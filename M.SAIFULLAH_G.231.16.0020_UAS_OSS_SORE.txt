@@ -1,0 +1,18 @@
+def Tampil_Tuple(tuplee):
+	for i in range(len(tuplee)):
+		print(i+1,'.',tuplee[i])
+
+def Tampil_List(listing):
+	for i in listing:
+		print(i)
+
+def Utama():
+	listing=[1,2,3,4,5,6,7,8,9]
+	tuplee=('Aria Hendrawan','Basworo Ardi Pramono','Khoirudin','April Firman Daru','Whisnumurti')
+	print("\nBerikut adalah angka keberuntungan saya ")
+	Tampil_List(listing)
+	print("\n-----------------------------------------")
+	print("Daftar Nama Dosen FTIK USM ")
+	Tampil_Tuple(tuplee)
+
+Utama()
